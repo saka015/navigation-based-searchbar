@@ -57,7 +57,7 @@ const SearchBar = () => {
             />
           ) : (
             <div className="text-gray-200 text-xl font-light p-2 pt-3">
-              Press Ctrl+h to enable the input field
+              Press Ctrl+H to enable the input field
             </div>
           )}
         </div>
@@ -67,7 +67,7 @@ const SearchBar = () => {
           </button>
           <button className="text-2xl text-[#282A3A] ml-1">+</button>
           <button className="border-none p-2 bg-[#282A3A] text-[#b25068] font-bold text-xl  rounded-xl mt-[6px] ml-1 px-4">
-            K
+            H
           </button>
         </div>
       </div>
