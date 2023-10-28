@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  user-select: none;
+}
+
+body {
+  background-color: #282a3a;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-div {
+  /* border: 0.5px solid rgb(44, 115, 196); */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search-div:hover{
+  border: 0.5px solid #b25068;
+
+}
+.icon{
+  opacity: 0.6;
+}.blinking-cursor {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.hidden-cursor {
+  caret-color: transparent;
+  color: transparent;
+}
